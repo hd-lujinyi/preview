@@ -1,0 +1,28 @@
+#????
+server:
+  port: 8100
+
+#Mysql???
+spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    druid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      username: root
+#      password: root
+#      url: jdbc:mysql://127.0.0.1:3306/hap_dev?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+#mybatis-plus SQL??
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+##????
+#logging:
+#  config: classpath:logback-spring.xml
+fssc:
+  url: http://10.188.29.69:8100/dcs.web/upload
+ # url: http://172.21.182.82/dcs.web/upload
+  #url: http://10.107.209.160/dcs.web/upload
